@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC468CC24FDCAAE005CE29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468CB24FDCAAE005CE29E /* AppDelegate.swift */; };
+		FAC468CE24FDCAAE005CE29E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468CD24FDCAAE005CE29E /* SceneDelegate.swift */; };
+		FAC468D024FDCAAE005CE29E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468CF24FDCAAE005CE29E /* ContentView.swift */; };
+		FAC468D224FDCAAF005CE29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC468D124FDCAAF005CE29E /* Assets.xcassets */; };
+		FAC468D524FDCAAF005CE29E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC468D424FDCAAF005CE29E /* Preview Assets.xcassets */; };
+		FAC468D824FDCAAF005CE29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC468D624FDCAAF005CE29E /* LaunchScreen.storyboard */; };
+		FAC468E324FDCAAF005CE29E /* OracleMagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468E224FDCAAF005CE29E /* OracleMagicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC468DF24FDCAAF005CE29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC468C024FDCAAE005CE29E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC468C724FDCAAE005CE29E;
+			remoteInfo = OracleMagic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC468C824FDCAAE005CE29E /* OracleMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OracleMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC468CB24FDCAAE005CE29E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC468CD24FDCAAE005CE29E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAC468CF24FDCAAE005CE29E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAC468D124FDCAAF005CE29E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC468D424FDCAAF005CE29E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAC468D724FDCAAF005CE29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC468D924FDCAAF005CE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC468DE24FDCAAF005CE29E /* OracleMagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OracleMagicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC468E224FDCAAF005CE29E /* OracleMagicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleMagicTests.swift; sourceTree = "<group>"; };
+		FAC468E424FDCAAF005CE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC468C524FDCAAE005CE29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC468DB24FDCAAF005CE29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC468BF24FDCAAE005CE29E = {
+			isa = PBXGroup;
+			children = (
+				FAC468CA24FDCAAE005CE29E /* OracleMagic */,
+				FAC468E124FDCAAF005CE29E /* OracleMagicTests */,
+				FAC468C924FDCAAE005CE29E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC468C924FDCAAE005CE29E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC468C824FDCAAE005CE29E /* OracleMagic.app */,
+				FAC468DE24FDCAAF005CE29E /* OracleMagicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC468CA24FDCAAE005CE29E /* OracleMagic */ = {
+			isa = PBXGroup;
+			children = (
+				FAC468CB24FDCAAE005CE29E /* AppDelegate.swift */,
+				FAC468CD24FDCAAE005CE29E /* SceneDelegate.swift */,
+				FAC468CF24FDCAAE005CE29E /* ContentView.swift */,
+				FAC468D124FDCAAF005CE29E /* Assets.xcassets */,
+				FAC468D624FDCAAF005CE29E /* LaunchScreen.storyboard */,
+				FAC468D924FDCAAF005CE29E /* Info.plist */,
+				FAC468D324FDCAAF005CE29E /* Preview Content */,
+			);
+			path = OracleMagic;
+			sourceTree = "<group>";
+		};
+		FAC468D324FDCAAF005CE29E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAC468D424FDCAAF005CE29E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAC468E124FDCAAF005CE29E /* OracleMagicTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC468E224FDCAAF005CE29E /* OracleMagicTests.swift */,
+				FAC468E424FDCAAF005CE29E /* Info.plist */,
+			);
+			path = OracleMagicTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC468C724FDCAAE005CE29E /* OracleMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC468E724FDCAAF005CE29E /* Build configuration list for PBXNativeTarget "OracleMagic" */;
+			buildPhases = (
+				FAC468C424FDCAAE005CE29E /* Sources */,
+				FAC468C524FDCAAE005CE29E /* Frameworks */,
+				FAC468C624FDCAAE005CE29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OracleMagic;
+			productName = OracleMagic;
+			productReference = FAC468C824FDCAAE005CE29E /* OracleMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC468DD24FDCAAF005CE29E /* OracleMagicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC468EA24FDCAAF005CE29E /* Build configuration list for PBXNativeTarget "OracleMagicTests" */;
+			buildPhases = (
+				FAC468DA24FDCAAF005CE29E /* Sources */,
+				FAC468DB24FDCAAF005CE29E /* Frameworks */,
+				FAC468DC24FDCAAF005CE29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC468E024FDCAAF005CE29E /* PBXTargetDependency */,
+			);
+			name = OracleMagicTests;
+			productName = OracleMagicTests;
+			productReference = FAC468DE24FDCAAF005CE29E /* OracleMagicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC468C024FDCAAE005CE29E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Fernando Martín Ortiz";
+				TargetAttributes = {
+					FAC468C724FDCAAE005CE29E = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					FAC468DD24FDCAAF005CE29E = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = FAC468C724FDCAAE005CE29E;
+					};
+				};
+			};
+			buildConfigurationList = FAC468C324FDCAAE005CE29E /* Build configuration list for PBXProject "OracleMagic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC468BF24FDCAAE005CE29E;
+			productRefGroup = FAC468C924FDCAAE005CE29E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC468C724FDCAAE005CE29E /* OracleMagic */,
+				FAC468DD24FDCAAF005CE29E /* OracleMagicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC468C624FDCAAE005CE29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC468D824FDCAAF005CE29E /* LaunchScreen.storyboard in Resources */,
+				FAC468D524FDCAAF005CE29E /* Preview Assets.xcassets in Resources */,
+				FAC468D224FDCAAF005CE29E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC468DC24FDCAAF005CE29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC468C424FDCAAE005CE29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC468CC24FDCAAE005CE29E /* AppDelegate.swift in Sources */,
+				FAC468CE24FDCAAE005CE29E /* SceneDelegate.swift in Sources */,
+				FAC468D024FDCAAE005CE29E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC468DA24FDCAAF005CE29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC468E324FDCAAF005CE29E /* OracleMagicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC468E024FDCAAF005CE29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC468C724FDCAAE005CE29E /* OracleMagic */;
+			targetProxy = FAC468DF24FDCAAF005CE29E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC468D624FDCAAF005CE29E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC468D724FDCAAF005CE29E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC468E524FDCAAF005CE29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC468E624FDCAAF005CE29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC468E824FDCAAF005CE29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OracleMagic/Preview Content\"";
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OracleMagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fmo.OracleMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC468E924FDCAAF005CE29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OracleMagic/Preview Content\"";
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OracleMagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fmo.OracleMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAC468EB24FDCAAF005CE29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				INFOPLIST_FILE = OracleMagicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fmo.OracleMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OracleMagic.app/OracleMagic";
+			};
+			name = Debug;
+		};
+		FAC468EC24FDCAAF005CE29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				INFOPLIST_FILE = OracleMagicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fmo.OracleMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OracleMagic.app/OracleMagic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC468C324FDCAAE005CE29E /* Build configuration list for PBXProject "OracleMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC468E524FDCAAF005CE29E /* Debug */,
+				FAC468E624FDCAAF005CE29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC468E724FDCAAF005CE29E /* Build configuration list for PBXNativeTarget "OracleMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC468E824FDCAAF005CE29E /* Debug */,
+				FAC468E924FDCAAF005CE29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC468EA24FDCAAF005CE29E /* Build configuration list for PBXNativeTarget "OracleMagicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC468EB24FDCAAF005CE29E /* Debug */,
+				FAC468EC24FDCAAF005CE29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC468C024FDCAAE005CE29E /* Project object */;
+}
