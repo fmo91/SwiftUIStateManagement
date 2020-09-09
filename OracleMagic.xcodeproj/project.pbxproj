@@ -14,6 +14,16 @@
 		FAC468D524FDCAAF005CE29E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC468D424FDCAAF005CE29E /* Preview Assets.xcassets */; };
 		FAC468D824FDCAAF005CE29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC468D624FDCAAF005CE29E /* LaunchScreen.storyboard */; };
 		FAC468E324FDCAAF005CE29E /* OracleMagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468E224FDCAAF005CE29E /* OracleMagicTests.swift */; };
+		FAC468F124FDCAEB005CE29E /* CardsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468F024FDCAEB005CE29E /* CardsList.swift */; };
+		FAC468F724FDCB2B005CE29E /* CardsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468F424FDCB2B005CE29E /* CardsResponse.swift */; };
+		FAC468F824FDCB2B005CE29E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468F524FDCB2B005CE29E /* Card.swift */; };
+		FAC468F924FDCB2B005CE29E /* CardDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468F624FDCB2B005CE29E /* CardDetailResponse.swift */; };
+		FAC468FD24FDCB41005CE29E /* CardDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468FA24FDCB41005CE29E /* CardDetailRequest.swift */; };
+		FAC468FE24FDCB41005CE29E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468FB24FDCB41005CE29E /* Networking.swift */; };
+		FAC468FF24FDCB41005CE29E /* CardRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC468FC24FDCB41005CE29E /* CardRequest.swift */; };
+		FAC4690324FDCB5D005CE29E /* CardsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4690224FDCB5D005CE29E /* CardsListViewModel.swift */; };
+		FAC4690624FDCD05005CE29E /* ThemeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4690524FDCD05005CE29E /* ThemeProvider.swift */; };
+		FAC4690924FDD925005CE29E /* CardsListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4690824FDD925005CE29E /* CardsListState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +48,16 @@
 		FAC468DE24FDCAAF005CE29E /* OracleMagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OracleMagicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC468E224FDCAAF005CE29E /* OracleMagicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleMagicTests.swift; sourceTree = "<group>"; };
 		FAC468E424FDCAAF005CE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC468F024FDCAEB005CE29E /* CardsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsList.swift; sourceTree = "<group>"; };
+		FAC468F424FDCB2B005CE29E /* CardsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsResponse.swift; sourceTree = "<group>"; };
+		FAC468F524FDCB2B005CE29E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FAC468F624FDCB2B005CE29E /* CardDetailResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailResponse.swift; sourceTree = "<group>"; };
+		FAC468FA24FDCB41005CE29E /* CardDetailRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDetailRequest.swift; path = ../CardDetailRequest.swift; sourceTree = "<group>"; };
+		FAC468FB24FDCB41005CE29E /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		FAC468FC24FDCB41005CE29E /* CardRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardRequest.swift; path = ../CardRequest.swift; sourceTree = "<group>"; };
+		FAC4690224FDCB5D005CE29E /* CardsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListViewModel.swift; sourceTree = "<group>"; };
+		FAC4690524FDCD05005CE29E /* ThemeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProvider.swift; sourceTree = "<group>"; };
+		FAC4690824FDD925005CE29E /* CardsListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +99,12 @@
 		FAC468CA24FDCAAE005CE29E /* OracleMagic */ = {
 			isa = PBXGroup;
 			children = (
+				FAC4690424FDCCFC005CE29E /* Utils */,
+				FAC468F324FDCAFA005CE29E /* Model */,
+				FAC468F224FDCAF6005CE29E /* Networking */,
+				FAC468ED24FDCAD3005CE29E /* Application */,
 				FAC468CB24FDCAAE005CE29E /* AppDelegate.swift */,
 				FAC468CD24FDCAAE005CE29E /* SceneDelegate.swift */,
-				FAC468CF24FDCAAE005CE29E /* ContentView.swift */,
 				FAC468D124FDCAAF005CE29E /* Assets.xcassets */,
 				FAC468D624FDCAAF005CE29E /* LaunchScreen.storyboard */,
 				FAC468D924FDCAAF005CE29E /* Info.plist */,
@@ -105,6 +128,85 @@
 				FAC468E424FDCAAF005CE29E /* Info.plist */,
 			);
 			path = OracleMagicTests;
+			sourceTree = "<group>";
+		};
+		FAC468ED24FDCAD3005CE29E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FAC468EF24FDCAE1005CE29E /* Base */,
+				FAC468EE24FDCADD005CE29E /* Cards List ObservedObject */,
+				FAC4690724FDD917005CE29E /* Cards List State */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FAC468EE24FDCADD005CE29E /* Cards List ObservedObject */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4690124FDCB51005CE29E /* View Models */,
+				FAC468F024FDCAEB005CE29E /* CardsList.swift */,
+			);
+			path = "Cards List ObservedObject";
+			sourceTree = "<group>";
+		};
+		FAC468EF24FDCAE1005CE29E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FAC468CF24FDCAAE005CE29E /* ContentView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FAC468F224FDCAF6005CE29E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4690024FDCB44005CE29E /* Requests */,
+				FAC468FB24FDCB41005CE29E /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FAC468F324FDCAFA005CE29E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAC468F524FDCB2B005CE29E /* Card.swift */,
+				FAC468F624FDCB2B005CE29E /* CardDetailResponse.swift */,
+				FAC468F424FDCB2B005CE29E /* CardsResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAC4690024FDCB44005CE29E /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC468FA24FDCB41005CE29E /* CardDetailRequest.swift */,
+				FAC468FC24FDCB41005CE29E /* CardRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		FAC4690124FDCB51005CE29E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4690224FDCB5D005CE29E /* CardsListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		FAC4690424FDCCFC005CE29E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4690524FDCD05005CE29E /* ThemeProvider.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FAC4690724FDD917005CE29E /* Cards List State */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4690824FDD925005CE29E /* CardsListState.swift */,
+			);
+			path = "Cards List State";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,9 +310,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC468FD24FDCB41005CE29E /* CardDetailRequest.swift in Sources */,
 				FAC468CC24FDCAAE005CE29E /* AppDelegate.swift in Sources */,
+				FAC4690324FDCB5D005CE29E /* CardsListViewModel.swift in Sources */,
+				FAC468F824FDCB2B005CE29E /* Card.swift in Sources */,
+				FAC4690624FDCD05005CE29E /* ThemeProvider.swift in Sources */,
+				FAC468FF24FDCB41005CE29E /* CardRequest.swift in Sources */,
+				FAC4690924FDD925005CE29E /* CardsListState.swift in Sources */,
+				FAC468FE24FDCB41005CE29E /* Networking.swift in Sources */,
 				FAC468CE24FDCAAE005CE29E /* SceneDelegate.swift in Sources */,
+				FAC468F724FDCB2B005CE29E /* CardsResponse.swift in Sources */,
 				FAC468D024FDCAAE005CE29E /* ContentView.swift in Sources */,
+				FAC468F124FDCAEB005CE29E /* CardsList.swift in Sources */,
+				FAC468F924FDCB2B005CE29E /* CardDetailResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
